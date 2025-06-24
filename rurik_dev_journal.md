@@ -13,3 +13,6 @@
 - Start backing up code with Git
 - Integrate Gmail and Google Calendar access
 - Begin teaching Rurik what counts as an “important” email
+
+- 2025-06-24 16:30: Added summary logic using llama3.2:latest; tested with curl.
+- 2025-06-24 16:45: Piped server logs to logs/server.log; recorded test commands.
