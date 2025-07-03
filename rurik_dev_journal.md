@@ -16,3 +16,4 @@
 
 - 2025-06-24 16:30: Added summary logic using llama3.2:latest; tested with curl.
 - 2025-06-24 16:45: Piped server logs to logs/server.log; recorded test commands.
+- 2025-07-03 10:10: Add journal entry: Q&A prompt update and test planning
