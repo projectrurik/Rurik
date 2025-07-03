@@ -1,2 +1,10 @@
+# Ignore virtual environments
 venv/
-*.save
+.venv/
+
+# Ignore log files and folders
+logs/
+*.log
+
+# Ignore GitHub practice or temp folders
+git-practice/
