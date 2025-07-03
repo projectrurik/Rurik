@@ -27,7 +27,7 @@ def receive_email():
     if important:
         ollama_payload = {
             "model": "llama3.2:latest",    # your exact model name
-            "prompt": f"Summarize this email:\nSubject: {subject}\n\n{body}",
+            "prompt": f"You are an AI assistant. Read the message and answer if it's a question, or summarize it if it's long:\n\nSubject: {subject}\n\n{body}",
             "stream": False
         }
         try:
